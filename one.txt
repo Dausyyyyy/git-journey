@@ -2,11 +2,33 @@ one
 
 cd - open to folder
 explorer - open file in local repo
+
 ls - list all file
 ls -la - list hidden file created by git
+
 git clone (https link) - clone git repo at GitHub into local repo
 cd .. - back to one page 
 pwd - to know what directory are we in 
+
+
 git status - know what file is being modified
 git add --all/git add -A - stage entire project 
 git add . - stage the changes in the current directory we are in (pwd)
+git add * - show new or modified
+
+git commit -m "" - tell that we commit the changes 
+git config --global user.email "" - tell the email of who commit
+git config --global user.name "" - name of who commit 
+git log --oneline - update on the commited line
+
+--cached - only removes it form staging
+--force - completely deletes the files
+
+git log - git timeline/ history
+git branch - to check any branch in the 'main' folder
+git branch 'new folder' - to create new branch
+git checkout 'new folder' - switch to the created new folder
+git merge development -m "Merging on main from the development" - from main directory
+
+
+hello   
