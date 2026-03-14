@@ -29,6 +29,13 @@ git branch - to check any branch in the 'main' folder
 git branch 'new folder' - to create new branch
 git checkout 'new folder' - switch to the created new folder
 git merge development -m "Merging on main from the development" - from main directory
+git diff most recent older
 
 
+push -> sending local changes to the remote
+fetch -> bringing remote changes into your local repository, but not merging them yet
+pull -> fetching plus merging so your working directory immediately reflects the remote changes
+pull = fetch + merge
+
+git push origin main - origin means GitHub and main is from the local repository 
 hello   
